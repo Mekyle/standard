@@ -9,9 +9,10 @@ See also: https://github.com/ethereum/EIPs/issues/948
 * Kevin Owocki - Gitcoin
 * Travis Mathis
 * Rober Jorden
+* Mekyle Naidoo
 * TODO- please add your name here
 
-# Design Goals 
+# Design Goals
 
 * Subscriptions
 * Free Trials
