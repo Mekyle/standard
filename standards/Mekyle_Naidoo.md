@@ -34,3 +34,38 @@ Subscriptions as an alternative to ICO's. Currently in the industry ICO's are th
 ## Definitions
 Merchant: Users that accept funds for a product and/or service.
 Subscriber: A user that pays for a product and/or service.
+
+## Features
+
+1. The ability to approve a subscription to a specific address for a specific amount.
+2.
+
+## Methods
+
+deposit
+
+This is called by the subscriber/developer to send funds to the contract.
+
+* Makes the sender of the funds the owner of the contract.
+
+Struct DateNow
+
+* @param currentYear : Gets the current year from the timestamp and converts it to the current year.
+* @param currentMonth : Gets the current month from the timestamp and converts it to the current month.
+* @param currentDay : Gets the current day from the timestamp and converts it to the current day.
+
+Struct PaymentDate
+
+* @param nextYear : Gets the current year and adds one to it to get the next year.
+* @param nextMonth : Gets the current month and adds one to it to get the next year.
+* @param nextDay :
+
+Struct SubscriptionInfo
+
+* @param merchant : Gets the merchants address and stores it in an array.
+* @param price : Gets the static recurring payment price and stores in an array.
+* @param periodType : Gets the uint period type, 1 = Yearly payment, 2 = Monthly payment, 3 = Daily payment.
+* @param currentDate : Gets the current year, month and day from the timestamp and returns it in a human readable format "YYYYMMDD".
+* @param nextPaymentDate :
+
+* @param subContractActive : Checks if the 
